@@ -1,0 +1,15 @@
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\bin\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.deps.json
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\bin\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.dll
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\bin\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.pdb
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\bin\Debug\netcoreapp3.1\SocialMedia3.Core.dll
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\bin\Debug\netcoreapp3.1\SocialMedia3.Core.pdb
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\obj\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.csprojAssemblyReference.cache
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\obj\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.AssemblyInfoInputs.cache
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\obj\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.AssemblyInfo.cs
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\obj\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.csproj.CoreCompileInputs.cache
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\obj\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.csproj.CopyComplete
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\obj\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.dll
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\obj\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.pdb
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\bin\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.runtimeconfig.json
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\bin\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.runtimeconfig.dev.json
+D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Infrastructure\obj\Debug\netcoreapp3.1\SocialMedia3.Infrastructure.genruntimeconfig.cache
