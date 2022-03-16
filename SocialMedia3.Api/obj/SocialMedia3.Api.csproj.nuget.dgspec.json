@@ -1,35 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Api\\SocialMedia3.Api.csproj": {}
+    "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Api\\SocialMedia3.Api.csproj": {}
   },
   "projects": {
-    "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Api\\SocialMedia3.Api.csproj": {
+    "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Api\\SocialMedia3.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Api\\SocialMedia3.Api.csproj",
+        "projectUniqueName": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Api\\SocialMedia3.Api.csproj",
         "projectName": "SocialMedia3.Api",
-        "projectPath": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Api\\SocialMedia3.Api.csproj",
-        "packagesPath": "C:\\Users\\RICHARD\\.nuget\\packages\\",
-        "outputPath": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Api\\obj\\",
+        "projectPath": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Api\\SocialMedia3.Api.csproj",
+        "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
+        "outputPath": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RICHARD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj": {
-                "projectPath": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj"
+              "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj": {
+                "projectPath": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj"
               },
-              "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Infrastructure\\SocialMedia3.Infrastructure.csproj": {
-                "projectPath": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Infrastructure\\SocialMedia3.Infrastructure.csproj"
+              "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Infrastructure\\SocialMedia3.Infrastructure.csproj": {
+                "projectPath": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Infrastructure\\SocialMedia3.Infrastructure.csproj"
               }
             }
           }
@@ -42,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -88,6 +90,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.23, 3.1.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,30 +116,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj": {
+    "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj",
+        "projectUniqueName": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj",
         "projectName": "SocialMedia3.Core",
-        "projectPath": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj",
-        "packagesPath": "C:\\Users\\RICHARD\\.nuget\\packages\\",
-        "outputPath": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Core\\obj\\",
+        "projectPath": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj",
+        "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
+        "outputPath": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RICHARD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -131,6 +152,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -157,38 +179,53 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Infrastructure\\SocialMedia3.Infrastructure.csproj": {
+    "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Infrastructure\\SocialMedia3.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Infrastructure\\SocialMedia3.Infrastructure.csproj",
+        "projectUniqueName": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Infrastructure\\SocialMedia3.Infrastructure.csproj",
         "projectName": "SocialMedia3.Infrastructure",
-        "projectPath": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Infrastructure\\SocialMedia3.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\RICHARD\\.nuget\\packages\\",
-        "outputPath": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Infrastructure\\obj\\",
+        "projectPath": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Infrastructure\\SocialMedia3.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
+        "outputPath": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RICHARD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj": {
-                "projectPath": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj"
+              "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj": {
+                "projectPath": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.Core\\SocialMedia3.Core.csproj"
               }
             }
           }
@@ -201,6 +238,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -245,12 +283,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

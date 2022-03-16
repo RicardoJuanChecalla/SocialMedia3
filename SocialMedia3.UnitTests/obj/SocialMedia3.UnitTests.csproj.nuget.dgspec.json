@@ -1,29 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.UnitTests\\SocialMedia3.UnitTests.csproj": {}
+    "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.UnitTests\\SocialMedia3.UnitTests.csproj": {}
   },
   "projects": {
-    "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.UnitTests\\SocialMedia3.UnitTests.csproj": {
+    "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.UnitTests\\SocialMedia3.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.UnitTests\\SocialMedia3.UnitTests.csproj",
+        "projectUniqueName": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.UnitTests\\SocialMedia3.UnitTests.csproj",
         "projectName": "SocialMedia3.UnitTests",
-        "projectPath": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.UnitTests\\SocialMedia3.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\RICHARD\\.nuget\\packages\\",
-        "outputPath": "D:\\SamplesVisualCode\\SocialMedia3\\SocialMedia3.UnitTests\\obj\\",
+        "projectPath": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.UnitTests\\SocialMedia3.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
+        "outputPath": "D:\\SamplesAPI\\SocialMedia3\\SocialMedia3.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RICHARD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -63,12 +65,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

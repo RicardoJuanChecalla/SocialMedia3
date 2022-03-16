@@ -10,3 +10,16 @@ D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\Soci
 D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Core\bin\Debug\netcoreapp3.1\SocialMedia3.Core.runtimeconfig.json
 D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Core\bin\Debug\netcoreapp3.1\SocialMedia3.Core.runtimeconfig.dev.json
 D:\SamplesVisualCode\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.genruntimeconfig.cache
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\bin\Debug\netcoreapp3.1\SocialMedia3.Core.deps.json
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\bin\Debug\netcoreapp3.1\SocialMedia3.Core.runtimeconfig.json
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\bin\Debug\netcoreapp3.1\SocialMedia3.Core.runtimeconfig.dev.json
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\bin\Debug\netcoreapp3.1\SocialMedia3.Core.dll
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\bin\Debug\netcoreapp3.1\SocialMedia3.Core.pdb
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.csproj.AssemblyReference.cache
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.AssemblyInfoInputs.cache
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.AssemblyInfo.cs
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.csproj.CoreCompileInputs.cache
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.dll
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.pdb
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.genruntimeconfig.cache
