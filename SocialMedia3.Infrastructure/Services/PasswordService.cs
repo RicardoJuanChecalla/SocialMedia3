@@ -20,7 +20,7 @@ namespace SocialMedia3.Infrastructure.Services
         {
             //PBKDF2 implementation
             using(
-                var algorithm = new Rfc2898DeriveBytes(password,_options.SaltSize,_options.Iterations)
+                var algorithm = new Rfc2898DeriveBytes(password, _options.SaltSize, _options.Iterations)
             )
             {
                 var key = Convert.ToBase64String(algorithm.GetBytes(_options.KeySize));

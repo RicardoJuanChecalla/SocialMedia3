@@ -43,13 +43,13 @@ namespace SocialMedia3.Core.Services
             if(userPost.Count()<10)
             {
                 var lastPost = userPost.OrderByDescending(x=>x.Date).FirstOrDefault();
-                if((DateTime.Now - lastPost.Date).TotalDays < 7)
+                if((DateTime.Now - lastPost!.Date).TotalDays < 7)
                 {
                     throw new BusinessException("You are not able to publish the post");
                 }
             }
 
-            if(post.Description.Contains("sexo"))
+            if(post.Description!.Contains("sexo"))
             {
                 throw new BusinessException("Content not allow");
             }
@@ -76,13 +76,13 @@ namespace SocialMedia3.Core.Services
             }
             if (filters.Description != null)
             {
-                posts = posts.Where(x=>x.Description.ToLower().Contains(filters.Description.ToLower()));
+                posts = posts.Where(x=>x.Description!.ToLower().Contains(filters.Description.ToLower()));
             }
             var pageListPost = PagedList<Post>.Create(posts, filters.PageNumber, filters.PageSize);
             return pageListPost;
         }
 
-        public async Task<Post> GetPost(int id)
+        public async Task<Post?> GetPost(int id)
         {
             return await _unitofwork.PostRepository.GetById(id);
         }
@@ -90,18 +90,30 @@ namespace SocialMedia3.Core.Services
         public async Task<bool> UpdatePost(Post post)
         {
             var consultPost = await _unitofwork.PostRepository.GetById(post.Id);
-            consultPost.Description = post.Description;
-            consultPost.Image = post.Image;
-            _unitofwork.PostRepository.Update(consultPost);
-            await _unitofwork.SaveChangesAsync();
-            return true;
+            if (consultPost != null)
+            {
+                consultPost.Description = post.Description;
+                consultPost.Image = post.Image;
+                _unitofwork.PostRepository.Update(consultPost);
+                await _unitofwork.SaveChangesAsync();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public async Task<bool> DeletePost(int id)
         {
-            await _unitofwork.PostRepository.Delete(id);
-            await _unitofwork.SaveChangesAsync();
-            return true;
+            var post = await _unitofwork.PostRepository.GetById(id);
+            if (post != null) 
+            {
+                _unitofwork.PostRepository.Delete(post);
+                await _unitofwork.SaveChangesAsync();
+                return true;
+            }
+            return false;
         }
 
     }

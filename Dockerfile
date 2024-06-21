@@ -1,12 +1,12 @@
 # https://hub.docker.com/
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 # EXPOSE 5001
 
 # copy csproj and restore as distinct layers
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY ["SocialMedia3.Api/SocialMedia3.Api.csproj", "SocialMedia3.Api/"]
 COPY ["SocialMedia3.Core/SocialMedia3.Core.csproj", "SocialMedia3.Core/"]

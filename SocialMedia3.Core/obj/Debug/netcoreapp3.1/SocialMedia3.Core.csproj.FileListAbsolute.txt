@@ -23,3 +23,4 @@ D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia
 D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.dll
 D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.pdb
 D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.genruntimeconfig.cache
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\netcoreapp3.1\SocialMedia3.Core.sourcelink.json

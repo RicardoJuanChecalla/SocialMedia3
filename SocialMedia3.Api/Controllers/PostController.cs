@@ -63,14 +63,15 @@ namespace SocialMedia3.Api.Controllers
                 TotalPages = posts.TotalPages,
                 HasNextPage = posts.HasNextPage,
                 HasPreviousPage = posts.HasPreviousPage,
-                NextPageUrl = _uriService.GetPostPaginationUri(filters,Url.RouteUrl(nameof(GetPosts))).ToString(),
-                PreviousPageUrl = _uriService.GetPostPaginationUri(filters,Url.RouteUrl(nameof(GetPosts))).ToString()
+                NextPageUrl = _uriService.GetPostPaginationUri(filters,Url.RouteUrl(nameof(GetPosts))!).ToString(),
+                PreviousPageUrl = _uriService.GetPostPaginationUri(filters,Url.RouteUrl(nameof(GetPosts))!).ToString()
             };
             var response = new ApiResponse<IEnumerable<PostDto>>(postsDto)
             {
                 Meta = metadata
             };
-            Response.Headers.Add("X-Pagination",JsonConvert.SerializeObject(metadata));
+            //Response.Headers.Add("X-Pagination",JsonConvert.SerializeObject(metadata));
+            Response.Headers.Append("X-Pagination",JsonConvert.SerializeObject(metadata));
             return Ok(response);
         }
 

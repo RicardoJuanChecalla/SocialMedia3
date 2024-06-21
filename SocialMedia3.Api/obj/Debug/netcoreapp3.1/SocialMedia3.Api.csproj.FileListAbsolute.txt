@@ -129,8 +129,16 @@ D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\SocialMedia3
 D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\SocialMedia3.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\staticwebassets\SocialMedia3.Api.StaticWebAssets.Manifest.cache
 D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\SocialMedia3.Api.RazorTargetAssemblyInfo.cache
-D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\SocialMedia3.Api.csproj.CopyComplete
 D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\SocialMedia3.Api.dll
 D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\SocialMedia3.Api.xml
 D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\SocialMedia3.Api.pdb
 D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\SocialMedia3.Api.genruntimeconfig.cache
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\SocialMedia3.Api.sourcelink.json
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\staticwebassets\SocialMedia3.Api.StaticWebAssets.Pack.cache
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.SocialMedia3.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.SocialMedia3.Api.props
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.SocialMedia3.Api.props
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.SocialMedia3.Api.props
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Api\obj\Debug\netcoreapp3.1\SocialMe.BF9CB38D.Up2Date

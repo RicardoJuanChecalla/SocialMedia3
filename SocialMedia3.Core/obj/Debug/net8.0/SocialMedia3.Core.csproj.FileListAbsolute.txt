@@ -1,0 +1,15 @@
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\bin\Debug\net8.0\SocialMedia3.Core.deps.json
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\bin\Debug\net8.0\SocialMedia3.Core.runtimeconfig.json
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\bin\Debug\net8.0\SocialMedia3.Core.dll
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\bin\Debug\net8.0\SocialMedia3.Core.pdb
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\net8.0\SocialMedia3.Core.csproj.AssemblyReference.cache
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\net8.0\SocialMedia3.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\net8.0\SocialMedia3.Core.AssemblyInfoInputs.cache
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\net8.0\SocialMedia3.Core.AssemblyInfo.cs
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\net8.0\SocialMedia3.Core.csproj.CoreCompileInputs.cache
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\net8.0\SocialMedia3.Core.sourcelink.json
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\net8.0\SocialMedia3.Core.dll
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\net8.0\refint\SocialMedia3.Core.dll
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\net8.0\SocialMedia3.Core.pdb
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\net8.0\SocialMedia3.Core.genruntimeconfig.cache
+D:\SamplesAPI\SocialMedia3\SocialMedia3.Core\obj\Debug\net8.0\ref\SocialMedia3.Core.dll

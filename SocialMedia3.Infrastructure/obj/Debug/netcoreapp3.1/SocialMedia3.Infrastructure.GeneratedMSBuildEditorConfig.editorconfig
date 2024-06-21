@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = SocialMedia3.Infrastructure
-build_property.ProjectDir = d:\SamplesAPI\SocialMedia3\SocialMedia3.Infrastructure\
+build_property.ProjectDir = D:\SamplesAPI\SocialMedia3\SocialMedia3.Infrastructure\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

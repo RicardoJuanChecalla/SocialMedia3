@@ -36,6 +36,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using SocialMedia3.Infrastructure.Options;
 using SocialMedia3.Infrastructure.Extensions;
+using FluentValidation;
 
 namespace SocialMedia3.Api
 {
@@ -112,7 +113,7 @@ namespace SocialMedia3.Api
                     ValidateIssuerSigningKey = true,
                     ValidIssuer = Configuration["Authentication:Issuer"],
                     ValidAudience = Configuration["Authentication:Audience"],
-                    IssuerSigningKey =  new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Authentication:SecretKey"]))	
+                    IssuerSigningKey =  new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Authentication:SecretKey"]!))	
 	            };
             });
 
@@ -122,9 +123,12 @@ namespace SocialMedia3.Api
            });
 
            //inicializa fluent
-            services.AddFluentValidation(options =>{
-                options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
-            });
+            // services.AddFluentValidation(options =>{
+            //     options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
+            // });
+            services.AddFluentValidationAutoValidation();
+            services.AddFluentValidationClientsideAdapters();
+            services.AddValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

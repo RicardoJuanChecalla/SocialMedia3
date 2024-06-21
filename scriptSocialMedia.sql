@@ -301,3 +301,65 @@ ALTER TABLE [dbo].[Publicacion]  WITH NOCHECK ADD  CONSTRAINT [FK_Publicacion_Us
 REFERENCES [dbo].[Usuario] ([IdUsuario])
 GO
 ALTER TABLE [dbo].[Publicacion] CHECK CONSTRAINT [FK_Publicacion_Usuario]
+
+
+/*
+CREATE TABLE "public"."Comentario" (
+    "IdComentario" integer NOT NULL,
+    "IdPublicacion" integer NOT NULL,
+    "IdUsuario" integer NOT NULL,
+    "Descripcion" character varying(500) NOT NULL,
+    "Fecha" date NOT NULL,
+    "Activo" bit(1) NOT NULL,
+    CONSTRAINT "Comentario_IdComentario" PRIMARY KEY ("IdComentario")
+) WITH (oids = false);
+
+
+CREATE SEQUENCE "Publicacion_IdPublicacion_seq" INCREMENT  MINVALUE  MAXVALUE  CACHE ;
+
+CREATE TABLE "public"."Publicacion" (
+    "IdPublicacion" integer DEFAULT nextval('"Publicacion_IdPublicacion_seq"') NOT NULL,
+    "IdUsuario" integer NOT NULL,
+    "Fecha" date NOT NULL,
+    "Descripcion" character varying(1000) NOT NULL,
+    "Imagen" character varying(500) NOT NULL,
+    CONSTRAINT "Publicacion_pkey" PRIMARY KEY ("IdPublicacion")
+) WITH (oids = false);
+
+INSERT INTO "Publicacion" ("IdPublicacion", "IdUsuario", "Fecha", "Descripcion", "Imagen") VALUES
+(1,	1,	'2022-03-01',	'hola mundo azul',	'jejeje.jpg'),
+(2,	1,	'2022-03-01',	'prueba0000001',	'prueba01'),
+(3,	1,	'2022-04-01',	'prueba0000002',	'prueba02');
+
+CREATE SEQUENCE "Seguridad_IdSeguridad_seq" INCREMENT  MINVALUE  MAXVALUE  CACHE ;
+
+CREATE TABLE "public"."Seguridad" (
+    "IdSeguridad" integer DEFAULT nextval('"Seguridad_IdSeguridad_seq"') NOT NULL,
+    "Usuario" character varying(50) NOT NULL,
+    "NombreUsuario" character varying(100) NOT NULL,
+    "Contrasena" character varying(200) NOT NULL,
+    "Rol" character varying(15) NOT NULL,
+    CONSTRAINT "Seguridad_pkey" PRIMARY KEY ("IdSeguridad")
+) WITH (oids = false);
+
+INSERT INTO "Seguridad" ("IdSeguridad", "Usuario", "NombreUsuario", "Contrasena", "Rol") VALUES
+(1,	'admin',	'admin',	'10000.idFj4pos3NnK37KTRkLyFQ==.3e4naNLrEW/n9Csrw5YHzlka2iLH6j0M67KrbUfGIPk=',	'Administrator'),
+(2,	'ricardo',	'ricardo',	'10000.SvXKUzpWjIGYwnfM5s0oOg==.i7lsfxbW5FDtjLbe388oq5gsVHQfm0H+xUA/iNjDnVE=',	'Consumer'),
+(3,	'juan',	'juan',	'10000.MKxNRCbV+Vl+BtN6X9YAzw==.eNeTCHUS+8AaGx3x2NqIKt0G/KOhHSTP3lKxp95ndmE=',	'Consumer');
+
+CREATE SEQUENCE "Usuario_IdUsuario_seq" INCREMENT  MINVALUE  MAXVALUE  CACHE ;
+
+CREATE TABLE "public"."Usuario" (
+    "IdUsuario" integer DEFAULT nextval('"Usuario_IdUsuario_seq"') NOT NULL,
+    "Nombres" character varying(50) NOT NULL,
+    "Apellidos" character varying(50) NOT NULL,
+    "Email" character varying(30) NOT NULL,
+    "FechaNacimiento" date NOT NULL,
+    "Telefono" character varying(10) NOT NULL,
+    "Activo" bit(1) NOT NULL,
+    CONSTRAINT "Usuario_pkey" PRIMARY KEY ("IdUsuario")
+) WITH (oids = false);
+
+INSERT INTO "Usuario" ("IdUsuario", "Nombres", "Apellidos", "Email", "FechaNacimiento", "Telefono", "Activo") VALUES
+(1,	'Hademar',	'Coleman',	'Ligon@example.com',	'1973-07-05',	'012-9871',	'1');
+*/

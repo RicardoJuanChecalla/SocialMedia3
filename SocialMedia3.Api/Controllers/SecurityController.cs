@@ -39,7 +39,7 @@ namespace SocialMedia3.Api.Controllers
         public async Task<IActionResult> Security(SecurityDto securityDto)
         {
             var security = _mapper.Map<Security>(securityDto);
-            security.Password =  _passwordService.Hash(security.Password);
+            security.Password =  _passwordService.Hash(security.Password!);
             await _securityService.RegisterUser(security);
             var securityDtoNew = _mapper.Map<SecurityDto>(security);
             var response = new ApiResponse<SecurityDto>(securityDtoNew);

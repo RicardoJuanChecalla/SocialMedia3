@@ -47,21 +47,22 @@ namespace SocialMedia3.Api.Controllers
         private async Task<(bool,Security)> IsValidUser(UserLogin login)
         {
             var user = await _securityService.GetLoginByCredential(login);
-            var isValid = _passwordService.Check(user.Password,login.Password);
+            ArgumentNullException.ThrowIfNull(user);
+            var isValid = _passwordService.Check(user.Password!,login.Password!);
             return (isValid, user);
         }
 
         private string GenerateToken(Security security)
         {
             //Header
-            var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Authentication:SecretKey"]));	
+            var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Authentication:SecretKey"]!));	
             var signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
             var header = new JwtHeader(signingCredentials);
 
             // //Claims
             var claims = new[]{
-	            new Claim(ClaimTypes.Name, security.UserName),
-                new Claim("User", security.User), 
+	            new Claim(ClaimTypes.Name, security.UserName!),
+                new Claim("User", security.User!), 
 	            new Claim(ClaimTypes.Role, security.Role.ToString())
             };
 

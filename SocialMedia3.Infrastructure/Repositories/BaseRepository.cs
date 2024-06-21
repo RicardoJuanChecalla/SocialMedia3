@@ -28,7 +28,7 @@ namespace SocialMedia3.Infrastructure.Repositories
             // return await _entities.ToListAsync();
         }
 
-        public async Task<T> GetById(int id)
+        public async Task<T?> GetById(int id)
         {
             return await _entities.FindAsync(id);
         }
@@ -47,11 +47,21 @@ namespace SocialMedia3.Infrastructure.Repositories
             //await _context.SaveChangesAsync();
         }
 
+        public void Delete(T entity)
+        {
+            _entities.Remove(entity);
+        }
+
+        /*
         public async Task Delete(int id)
         {
             T entity = await GetById(id);
-            _entities.Remove(entity);
+            if (entity != null)
+            {
+                _entities.Remove(entity);
+            }
             //await _context.SaveChangesAsync();
         }
+        */
     }
 }

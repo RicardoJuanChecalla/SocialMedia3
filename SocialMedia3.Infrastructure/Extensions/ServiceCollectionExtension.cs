@@ -19,9 +19,13 @@ namespace SocialMedia3.Infrastructure.Extensions
     {
         public static IServiceCollection AddDbContexts(this IServiceCollection services,IConfiguration configuration )
         {
-             //resuelve cadena de conexion
+            //*resuelve cadena de conexion SQL*/
+            // services.AddDbContext<SocialMediaContext>(options => 
+            //     options.UseSqlServer(configuration.GetConnectionString("SocialMedia"))
+            // );
+            //*resuelve cadena de conexion PostgreSQL*/
             services.AddDbContext<SocialMediaContext>(options => 
-                options.UseSqlServer(configuration.GetConnectionString("SocialMedia"))
+                options.UseNpgsql(configuration.GetConnectionString("SocialMedia"))
             );
             return services;
         }
@@ -35,7 +39,6 @@ namespace SocialMedia3.Infrastructure.Extensions
 
             return services;
         }
-
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
             //resuelve dependencias
@@ -47,7 +50,7 @@ namespace SocialMedia3.Infrastructure.Extensions
             services.AddSingleton<IUriService>(provider=>
             {
                 var accesor = provider.GetRequiredService<IHttpContextAccessor>();
-                var request = accesor.HttpContext.Request;
+                var request = accesor.HttpContext!.Request;
                 var absoluteUri = string.Concat(request.Scheme, "://", request.Host.ToUriComponent());
                 return new UriService(absoluteUri);
             });

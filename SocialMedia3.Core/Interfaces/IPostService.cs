@@ -12,7 +12,7 @@ namespace SocialMedia3.Core.Interfaces
         // IEnumerable<Post> GetPosts(PostQueryFilter filters);
         PagedList<Post> GetPosts(PostQueryFilter filters);
 
-        Task<Post> GetPost(int id);
+        Task<Post?> GetPost(int id);
 
         Task InsertPost(Post post);
 
